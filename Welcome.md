@@ -1,5 +1,6 @@
-This is your new *vault*.
+## About
+This is the documentation repositiory for solving the halting problem. Although, one may look at this and see that it is impossible, I think that there is a naive solution that can be used to "solve" it. Currently it should be able to parse Java (because statically typed) and use general abstract concepts to solve problems
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
+## Why FORTRAN?
 
-When you're ready, delete this note and make the vault your own.
+It _FAST_. Like *really* fast. It compiles to assembly, like any other language, but it is practically faster than c and doesn't have a lot to hold it back in terms of weird stuff.
