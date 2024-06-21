@@ -10,3 +10,9 @@ Excuse the crude drawing, but you can see that every program has states that it 
 
 ![[labeledStates.png]]
 
+So, as you can see, the processes can be read as having states that it can go into, for instance, this basic process just abstractly opens and uses a file, and then uses that to do whatever, and the *star* represents the final state of the program, if it ends.
+
+But, how does a process get stuck, how do you know if a program will halt?
+Look at a flowchart:
+![[Process.png]]
+
