@@ -2,5 +2,5 @@ This is where the main stuff goes, where all the main interface with the user an
 
 It also allows transfer of data between modules for reasons...
 
-It reads files from [[filemanagef95]] and then uses [[Code Documentation/AnalysisCode/javaFilesAnalyzer]] to look at the code
+It reads files from [[filemanagef95]] and then uses [[javaFilesAnalyzerf95]] to look at the code
 
