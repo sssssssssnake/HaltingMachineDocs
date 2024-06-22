@@ -18,3 +18,18 @@ type :: JavaFile
 	character(:), allocatable, dimension(:) :: imports
 end type JavaFile
 ```
+
+
+The `setMainFileContent` #subroutine has these parameters
+
+```fortran
+subroutine setMainFileContent(fileContent)
+	character(:), dimension(:), allocatable, intent(in) :: fileContent
+```
+
+The `findImportantJavaFiles` #subroutine  has these parameters
+
+```fortran
+subroutine findImportantJavaFiles(lastLine)
+	integer, intent(in) :: lastLine
+```
