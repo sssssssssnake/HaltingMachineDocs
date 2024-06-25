@@ -158,7 +158,7 @@ So, when looking at these, there are the descriptors, the types, and the jmp com
 
 ```fortran
 implicit none
-	type :: token
+type :: token
 	integer :: twordType
 	integer :: twordNumber
 	character(:), allocatable :: tokenName
