@@ -61,7 +61,7 @@ Here is the rundown
 
 **Note:** `true`, `false`, and `null` are not keywords, but they are literals and reserved words that cannot be used as identifiers.
 
-Type Declaration
+## Type Declaration
 
 | Keyword      | Gonna support it?(yes default) | Number |
 | ------------ | ------------------------------ | ------ |
@@ -91,16 +91,44 @@ Type Declaration
 | var          |                                | 24     |
 | void         |                                | 25     |
 | volatile     | ?                              | 26     |
-26 keywords
+*26 keywords*
 
-Polymorphism, inheritance type keywords (the stuff that makes java java)
+## Polymorphism, inheritance type keywords (the stuff that makes java java)
 
 | Keyword    | Gonna Support It? | number |
 | ---------- | ----------------- | ------ |
-| abstract   |                   |        |
-| exports    | ?                 |        |
-| extends    |                   |        |
-| implements |                   |        |
-| interface  |                   |        |
+| abstract   |                   | 1      |
+| exports    | ?                 | 2      |
+| extends    |                   | 3      |
+| implements |                   | 4      |
+| interface  |                   | 5      |
 modules will probably end up here, never used them, and I have been in some large java projects
 
+*5 Keywords*
+
+## Jump keywords:
+the stuff that generally compiles to the
+```assembly-ish
+mov reg, value1
+cmp value2
+jmpc programMemoryPointer
+```
+You know. the fun stuff that can shoot you in the foot.
+
+| Keyword  | Gonna Support It? | number |
+| -------- | ----------------- | ------ |
+| break    |                   |        |
+| case     |                   |        |
+| catch    |                   |        |
+| continue |                   |        |
+| default  |                   |        |
+| do       |                   |        |
+| else     |                   |        |
+| finally  |                   |        |
+| for      |                   |        |
+| if       |                   |        |
+| return   |                   |        |
+| switch   |                   |        |
+| throw    |                   |        |
+| try      |                   |        |
+| while    |                   |        |
