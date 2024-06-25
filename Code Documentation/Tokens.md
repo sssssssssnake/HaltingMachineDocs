@@ -92,7 +92,7 @@ Here is the rundown
 | var          |                                | 24     |
 | void         |                                | 25     |
 | volatile     | ?                              | 26     |
-*26 keywords*
+*25 keywords*
 
 ## Polymorphism, inheritance type keywords (the stuff that makes java java)
 
@@ -151,4 +151,9 @@ You know. the fun stuff that can shoot you in the foot.
 | null    |           |        |
 | false   |           |        |
 | true    |           |        |
+
+# The plan
+
+So, when looking at these, there are the descriptors, the types, and the jmp commads
+
 
