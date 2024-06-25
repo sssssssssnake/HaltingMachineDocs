@@ -156,4 +156,10 @@ You know. the fun stuff that can shoot you in the foot.
 
 So, when looking at these, there are the descriptors, the types, and the jmp commads
 
-
+```fortran
+implicit none
+type :: token
+	integer :: twordType
+	integer :: twordNumber
+	character(*) :: tokenContent
+```
