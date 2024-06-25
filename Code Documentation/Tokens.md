@@ -30,7 +30,7 @@ Here is the rundown
 | [if](https://www.w3schools.com/java/ref_keyword_if.asp)                     | Makes a conditional statement                                                                                                                                                                                                                                                                                 |
 | [implements](https://www.w3schools.com/java/ref_keyword_implements.asp)     | Implements an interface                                                                                                                                                                                                                                                                                       |
 | [import](https://www.w3schools.com/java/ref_keyword_import.asp)             | Used to import a package, class or interface                                                                                                                                                                                                                                                                  |
-| [instanceof](https://www.w3schools.com/java/ref_keyword_instanceof.asp)     | Checks whether an object is an instance of a specific class or an interface                                                                                                                                                                                                                                   |
+| [instanceof](https://www.w3schools.com/java/ref_keyword_instanceof.asp)     | Checks whether an object is an instance of a specific class or an interface (Function of language)                                                                                                                                                                                                            |
 | [int](https://www.w3schools.com/java/ref_keyword_int.asp)                   | A data type that can store whole numbers from -2147483648 to 2147483647                                                                                                                                                                                                                                       |
 | [interface](https://www.w3schools.com/java/ref_keyword_interface.asp)       | Used to declare a special type of class that only contains abstract methods                                                                                                                                                                                                                                   |
 | [long](https://www.w3schools.com/java/ref_keyword_long.asp)                 | A data type that can store whole numbers from -9223372036854775808 to 9223372036854775808                                                                                                                                                                                                                     |
@@ -94,4 +94,13 @@ Type Declaration
 26 keywords
 
 Polymorphism, inheritance type keywords (the stuff that makes java java)
+
+| Keyword    | Gonna Support It? | number |
+| ---------- | ----------------- | ------ |
+| abstract   |                   |        |
+| exports    | ?                 |        |
+| extends    |                   |        |
+| implements |                   |        |
+| interface  |                   |        |
+modules will probably end up here, never used them, and I have been in some large java projects
 
