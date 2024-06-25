@@ -117,18 +117,21 @@ You know. the fun stuff that can shoot you in the foot.
 
 | Keyword  | Gonna Support It? | number |
 | -------- | ----------------- | ------ |
-| break    |                   |        |
-| case     |                   |        |
-| catch    |                   |        |
-| continue |                   |        |
-| default  |                   |        |
-| do       |                   |        |
-| else     |                   |        |
-| finally  |                   |        |
-| for      |                   |        |
-| if       |                   |        |
-| return   |                   |        |
-| switch   |                   |        |
-| throw    |                   |        |
-| try      |                   |        |
-| while    |                   |        |
+| break    |                   | 1      |
+| case     |                   | 2      |
+| catch    |                   | 3      |
+| continue |                   | 4      |
+| default  |                   | 5      |
+| do       |                   | 6      |
+| else     |                   | 7      |
+| finally  |                   | 8      |
+| for      |                   | 9      |
+| if       |                   | 10     |
+| return   |                   | 11     |
+| switch   |                   | 12     |
+| throw    |                   | 13     |
+| try      |                   | 14     |
+| while    |                   | 15     |
+*Number of keywords:15*
+
+## intrinsic-ish functions
