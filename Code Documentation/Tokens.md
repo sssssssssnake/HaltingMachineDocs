@@ -63,31 +63,35 @@ Here is the rundown
 
 Type Declaration
 
-| Keyword      | Gonna support it?(yes default) |
-| ------------ | ------------------------------ |
-| boolean      |                                |
-| byte         |                                |
-| char         |                                |
-| class        |                                |
-| const        |                                |
-| double       |                                |
-| enum         |                                |
-| final        |                                |
-| float        |                                |
-| int          |                                |
-| interface    |                                |
-| long         |                                |
-| module       | ?                              |
-| native       |                                |
-| new          |                                |
-| private      |                                |
-| protected    |                                |
-| public       |                                |
-| requires     | ?                              |
-| short        |                                |
-| static       |                                |
-| synchronized | ?                              |
-| transient    | ?                              |
-| var          |                                |
-| void         |                                |
-| volatile     | ?                              |
+| Keyword      | Gonna support it?(yes default) | Number |
+| ------------ | ------------------------------ | ------ |
+| boolean      |                                | 1      |
+| byte         |                                | 2      |
+| char         |                                | 3      |
+| class        |                                | 4      |
+| const        |                                | 5      |
+| double       |                                | 6      |
+| enum         |                                | 7      |
+| final        |                                | 8      |
+| float        |                                | 9      |
+| int          |                                | 10     |
+| interface    |                                | 11     |
+| long         |                                | 12     |
+| module       | ?                              | 13     |
+| native       |                                | 14     |
+| new          |                                | 15     |
+| private      |                                | 16     |
+| protected    |                                | 17     |
+| public       |                                | 18     |
+| requires     | ?                              | 19     |
+| short        |                                | 20     |
+| static       |                                | 21     |
+| synchronized | ?                              | 22     |
+| transient    | ?                              | 23     |
+| var          |                                | 24     |
+| void         |                                | 25     |
+| volatile     | ?                              | 26     |
+26 keywords
+
+Polymorphism, inheritance type keywords (the stuff that makes java java)
+
