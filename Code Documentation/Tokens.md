@@ -158,8 +158,17 @@ So, when looking at these, there are the descriptors, the types, and the jmp com
 
 ```fortran
 implicit none
-type :: token
+	type :: token
 	integer :: twordType
 	integer :: twordNumber
-	character(*) :: tokenContent
+	character(:), allocatable :: tokenName
+	! This contains all the stuff that is in the token
+	! i.e. "print(var1, var2)" would be in the tokenContent
+	! where tokenName = "print
+	! and tokenContent = "print(var1, var2)"
+	character(:), allocatable :: tokenContent
+	logical :: isChild, isParent
+	type(token), pointer :: previousToken
+	type(token), pointer, dimension(:) :: nextToken
+end type token
 ```
