@@ -172,3 +172,24 @@ type :: token
 	type(token), pointer, dimension(:) :: nextToken
 end type token
 ```
+
+
+That's the naive type, but that won't suffice, we need to account for if the token is an object.
+
+```fortran
+type :: token
+	integer :: twordType
+	integer :: twordNumber
+	character(:), allocatable :: tokenName
+	! This contains all the stuff that is in the token
+	! i.e. "print(var1, var2)" would be in the tokenContent
+	! where tokenName = "print
+	! and tokenContent = "print(var1, var2)"
+	character(:), allocatable :: tokenContent
+	logical :: isChild, isParent
+	logical :: isClass, isMethod
+	type(token), pointer :: previousToken
+	type(token), pointer, dimension(:) :: nextToken
+	type(token), pointer :: parentClass
+end type token
+```
