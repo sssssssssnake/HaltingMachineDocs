@@ -65,7 +65,6 @@ Type Declaration
 
 | Keyword      | Gonna support it?(yes default) |
 | ------------ | ------------------------------ |
-| abstract     |                                |
 | boolean      |                                |
 | byte         |                                |
 | char         |                                |
