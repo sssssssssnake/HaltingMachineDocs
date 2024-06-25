@@ -60,3 +60,35 @@ Here is the rundown
 | [while](https://www.w3schools.com/java/ref_keyword_while.asp)               | Creates a while loop                                                                                                                                                                                                                                                                                          |
 
 **Note:** `true`, `false`, and `null` are not keywords, but they are literals and reserved words that cannot be used as identifiers.
+
+Type Declaration
+
+| Keyword      | Gonna support it?(yes default) |
+| ------------ | ------------------------------ |
+| abstract     |                                |
+| boolean      |                                |
+| byte         |                                |
+| char         |                                |
+| class        |                                |
+| const        |                                |
+| double       |                                |
+| enum         |                                |
+| final        |                                |
+| float        |                                |
+| int          |                                |
+| interface    |                                |
+| long         |                                |
+| module       | ?                              |
+| native       |                                |
+| new          |                                |
+| private      |                                |
+| protected    |                                |
+| public       |                                |
+| requires     | ?                              |
+| short        |                                |
+| static       |                                |
+| synchronized | ?                              |
+| transient    | ?                              |
+| var          |                                |
+| void         |                                |
+| volatile     | ?                              |
